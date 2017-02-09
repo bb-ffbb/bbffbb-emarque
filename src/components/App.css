@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "FFBB";
+  src: url("../styles/ffbb.woff") format('woff');
+}
+
+.emk {
+  align-items: center;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  font-family: "FFBB";
+  height: 100%;
+  justify-content: center;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+
+.emk-header {
+  background-image: url("../styles/ffbb-logo-full.png");
+  background-repeat: no-repeat;
+  background-size: 18%;
+  color: #848484;
+  display: flex;
+  flex-direction: column;
+  height: 59%;
+  padding-left: 12%;
+  text-transform: uppercase;
+  width: 37%;
+}
